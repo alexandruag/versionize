@@ -20,6 +20,7 @@ extern crate versionize_derive;
 extern crate vm_memory;
 extern crate vmm_sys_util;
 
+pub mod blob;
 pub mod crc;
 pub mod primitives;
 pub mod version_map;
